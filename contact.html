@@ -75,9 +75,14 @@
                 <label for="message">Message</label>
                 <textarea id="message" name="message" required></textarea>
             </div>
+
+
             <input type="hidden" name="_next" value="https://freelancenexus.site/thank-you.html">
             <button type="submit" class="cta-button">Send Message</button>
-            <div id="loading" style="display: none;">Submitting...</div>
+            <div id="loading" style="display: none; text-align: center;">
+                <img src="spinner.gif" alt="Loading..." />
+                <p>Submitting...</p>
+            </div>
 
         </form>
         
@@ -91,13 +96,26 @@
     <footer>
         &copy; 2024 Freelance Nexus. All rights reserved.
     </footer>
+
     <script>
-document.getElementById("contact-form").addEventListener("submit", function(event) {
-    event.preventDefault();
-    document.getElementById("loading").style.display = "block"; // Show loading message
-    this.submit();  // Submit the form
-});
-</script>
+        document.getElementById("contact-form").addEventListener("submit", function(event) {
+            // Prevent form submission immediately
+            event.preventDefault();
+        
+            // Show the spinner immediately
+            document.getElementById("loading").style.display = "block";
+        
+            // Give enough time for the spinner to appear
+            setTimeout(function() {
+                // Now submit the form to Formsubmit (this will trigger reCAPTCHA on Formsubmit's side)
+                // Trigger the form submission manually after a slight delay
+                document.getElementById("contact-form").submit();
+            }, 300); // Delay set to 300ms to ensure the spinner shows up
+        });
+        </script>
+  
+    
+
 
 </body>
 </html>
