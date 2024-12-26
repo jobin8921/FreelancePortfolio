@@ -77,6 +77,8 @@
             </div>
             <input type="hidden" name="_next" value="https://freelancenexus.site/thank-you.html">
             <button type="submit" class="cta-button">Send Message</button>
+            <div id="loading" style="display: none;">Submitting...</div>
+
         </form>
         
         <div class="contact-info">
@@ -89,5 +91,13 @@
     <footer>
         &copy; 2024 Freelance Nexus. All rights reserved.
     </footer>
+    <script>
+document.getElementById("contact-form").addEventListener("submit", function(event) {
+    event.preventDefault();
+    document.getElementById("loading").style.display = "block"; // Show loading message
+    this.submit();  // Submit the form
+});
+</script>
+
 </body>
 </html>
