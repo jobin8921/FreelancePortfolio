@@ -55,12 +55,9 @@ Contact
 For questions or collaboration opportunities, feel free to contact us:
 
 > Email: teamfreelancenexus@gmail.com
-> Website: freelancenexus.site
+> Website: [freelancenexus.site](https://freelancenexus.site/)
 
 Thank you for visiting our repository! We look forward to building amazing projects together.
-
-vbnet
-Copy code
 
 Let me know if you’d like any more adjustments or additions! 😊
 
