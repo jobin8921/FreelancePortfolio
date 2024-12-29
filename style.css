@@ -259,7 +259,7 @@ nav a {
 /* Contact Section */
 .contact {
     background-color: #ffffff;
-    padding: 60px 20px;
+    padding: 20px 10px;
     text-align: center;
 }
 
@@ -296,7 +296,7 @@ nav a {
 }
 
 .contact .form-group textarea {
-    height: 150px;
+    height: 70px;
     resize: vertical;
 }
 
