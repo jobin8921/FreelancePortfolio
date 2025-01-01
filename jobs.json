@@ -16,6 +16,24 @@
       "location": "San Francisco, USA",
       "description": "Frontend developer role specializing in HTML, CSS, and JavaScript.",
       "applyLink": "https://applylink.com/frontend-developer"
+    },
+    {
+      "title": "Backend Developer",
+      "location": "Chicago, USA",
+      "description": "Backend development role with Node.js and MongoDB experience.",
+      "applyLink": "https://applylink.com/backend-developer"
+    },
+    {
+      "title": "Mobile Developer",
+      "location": "Austin, USA",
+      "description": "Mobile developer with experience in React Native or Flutter.",
+      "applyLink": "https://applylink.com/mobile-developer"
+    },
+    {
+      "title": "DevOps Engineer",
+      "location": "Seattle, USA",
+      "description": "DevOps engineer with knowledge of cloud platforms and CI/CD pipelines.",
+      "applyLink": "https://applylink.com/devops-engineer"
     }
   ]
   
