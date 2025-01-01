@@ -1,0 +1,21 @@
+[
+    {
+      "title": "Junior Developer",
+      "location": "Remote",
+      "description": "Entry-level developer role requiring JavaScript skills.",
+      "applyLink": "https://applylink.com/junior-developer"
+    },
+    {
+      "title": "Full Stack Developer",
+      "location": "New York, USA",
+      "description": "Experienced full-stack developer with React and Node.js knowledge.",
+      "applyLink": "https://applylink.com/full-stack-developer"
+    },
+    {
+      "title": "Frontend Developer",
+      "location": "San Francisco, USA",
+      "description": "Frontend developer role specializing in HTML, CSS, and JavaScript.",
+      "applyLink": "https://applylink.com/frontend-developer"
+    }
+  ]
+  
