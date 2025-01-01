@@ -1,6 +1,6 @@
 let jobs = [];  // Store all job listings
 let filteredJobs = [];  // Store filtered job listings
-const jobsPerPage = 3;  // Number of jobs per page
+const jobsPerPage = 6;  // Number of jobs per page
 let currentPage = 1;  // Starting page
 
 document.addEventListener('DOMContentLoaded', function () {
