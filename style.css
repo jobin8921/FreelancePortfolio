@@ -331,21 +331,8 @@ footer {
     position: relative;
 }
 
-footer .footer-links a {
-    color: white;
-    text-decoration: none;
-    margin: 0 10px;
-    font-size: 14px;
-    transition: color 0.3s;
-}
 
-footer .footer-links a:hover {
-    color: #ff5733;
-}
 
-footer .footer-links {
-    margin-top: 10px;
-}
 
 /* Media Queries for Responsiveness */
 @media (max-width: 768px) {
