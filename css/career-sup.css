@@ -83,7 +83,7 @@ nav a {
 }
 
 .nav-item.premium::after {
-    content: "Premium"; /* Add badge text */
+    /* content: "Premium";  */
     position: absolute;
     top: -12px;
     right: -12px;
