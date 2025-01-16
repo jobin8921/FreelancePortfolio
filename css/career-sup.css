@@ -106,7 +106,6 @@ nav a {
     justify-content: center;
     text-align: center;
     padding: 80px 20px;
-
     color: white;
     height: 300px;
     overflow: hidden;
@@ -132,7 +131,7 @@ nav a {
     z-index: 1; 
     margin: 0;
     padding: 10px;
-    color: #2a3d52;
+    color: white;
     font-weight: bold;
 
   }
